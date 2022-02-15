@@ -51,3 +51,22 @@ tr:nth-child(even) {
     filter:blur(3px) grayscale(5px);
     border: double 2px black;
 }  
+.navigation a:hover {
+    background-color:cyan;
+  }
+  
+  .item {
+      color: white;
+    background-color:black;
+  }
+  
+  @media screen and (max-width: 300px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+  .icon{
+      float:right;
+  }
