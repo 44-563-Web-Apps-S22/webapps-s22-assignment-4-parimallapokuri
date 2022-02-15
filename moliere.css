@@ -27,3 +27,21 @@
 .OFF{
     color:brown;
 }
+.tab,
+td{
+  border: 1.8px solid red;
+  text-align: left;
+  color:blueviolet;
+  padding: 6px;
+  margin: 40px;
+}
+th{
+    border: 2px solid black;   
+    text-align: center;
+    background-color: lightgreen;
+    padding:6px;
+    margin: 40px;
+  }
+tr{
+  background-color:lightpink;
+}  
