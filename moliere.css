@@ -42,6 +42,12 @@ th{
     padding:6px;
     margin: 40px;
   }
-tr{
-  background-color:lightpink;
+tr:nth-child(even) {
+    background-color: lightpink;
+} 
+.name:hover{
+    text-shadow: 2px 2px 5px red;
+    color:darkblue;
+    filter:blur(3px) grayscale(5px);
+    border: double 2px black;
 }  
